@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 
+set -eo pipefail
+set -x 
 
 cd "$(dirname "$0")"
 
 main() {
     git clone git@github.com:Hoppix/npcmd.git
     pushd npcmd
-    npm install
+    sudo npm install
     tsc
-    npm link
+    sudo npm link
     popd
     npcmd
 }
