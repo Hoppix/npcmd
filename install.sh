@@ -4,9 +4,10 @@
 cd "$(dirname "$0")"
 
 main() {
-    git clone https://github.com/Hoppix/npcmd/
+    git clone git@github.com:Hoppix/npcmd.git
     pushd npcmd
     npm install
+    tsc
     npm link
     popd
     npcmd
