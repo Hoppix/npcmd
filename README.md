@@ -1,6 +1,6 @@
 # NPC.md
 
-**create npc as markdown files for documentation**
+**create npc as markdown files for documentation**  
 Uses the [NPC Generator library](https://github.com/Cellule/npc-generator) to generate NPCs.
 
 ## prerequisites
