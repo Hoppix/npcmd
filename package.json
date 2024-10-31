@@ -1,0 +1,34 @@
+{
+  "name": "npcmd",
+  "version": "0.0.1",
+  "description": "npc-generator to markdown files for dm docs",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoppix/npcmd.git"
+  },
+  "bin": {
+    "npcmd": "./build/main.js"
+  },
+  "keywords": [
+    "dnd",
+    "5e",
+    "npc",
+    "character",
+    "generation"
+  ],
+  "author": "hoppix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoppix/npcmd/issues"
+  },
+  "homepage": "https://github.com/hoppix/npcmd#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "npc-generator": "^1.0.2",
+    "ts-node": "^10.9.2"
+  }
+}
