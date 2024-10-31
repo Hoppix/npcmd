@@ -7,6 +7,11 @@ Uses the [NPC Generator library](https://github.com/Cellule/npc-generator) to ge
 - node
 
 ## install
+Just simply curl and pipe the [install script](install.sh)     
+``
+curl https://raw.githubusercontent.com/Hoppix/npcmd/main/install.sh | bash
+``
+
 
 ## usage
 
