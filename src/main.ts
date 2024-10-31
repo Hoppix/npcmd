@@ -43,7 +43,7 @@ const occupationMapping = new Map<string, number>([
   ["learned", 0],
   ["lessernobility", 1],
   ["professional", 2],
-  ["working class", 3],
+  ["workingclass", 3],
   ["martial", 4],
   ["underclass", 5],
   ["entertainer", 6],
